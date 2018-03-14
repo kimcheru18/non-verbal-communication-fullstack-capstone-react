@@ -11,17 +11,17 @@ My mother is a stroke survivor. She can read and she understands what people are
 
 
 # Screenshots
-![image1](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/landing-page.png)
+![image1](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/landing-page.png)
 
-![image2](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/register-new-user-page.png)
+![image2](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-new-page.png)
 
-![image3](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/questions-page.png)
+![image3](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/select-category-page.png)
 
-![image4](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/instructions-to-create-sop.png)
+![image4](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-category-input-page.png)
 
 ![image5](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/create-sop-freestyle-page.png)
 
-![image6](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/create-sop-template-page.png)
+![image6](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-sub-category-input-page.png)
 
 ![image7](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/set-goals-page.png)
 
@@ -32,17 +32,9 @@ My mother is a stroke survivor. She can read and she understands what people are
 
 # User Stories & Initial UX
 
-**Landing Page**
+**Landing (HOME) Page**
 Step 1. Initial landing page explains what app is for.
 ![image1](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone/blob/master/wireframe-images/site-info-page.png)
-
-**Login Page**
-Step 2. User will login to their account here.
-![image1](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone/blob/master/wireframe-images/login-page.png)
-
-**Register Page**
-Step 3. User registers for account.
-![image1](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone/blob/master/wireframe-images/register-page.png)
 
 **Add New Card Page**
 Step 4. User clicks "NEW" from navigation section. All options are displayed except icon selection. A mock card is also displayed that will update as user selects or adds content.
