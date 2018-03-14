@@ -23,11 +23,17 @@ My mother is a stroke survivor. She can read and she understands what people are
 
 ![image6](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-sub-category-input-page.png)
 
-![image7](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/set-goals-page.png)
+![image7](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-item-dropdown-page.png)
 
-![image8](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/sop-values-beliefs-goals-final-page.png)
+![image8](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-item-input-page.png)
 
-![image9](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/revise-sop-page.png)
+![image9](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/select-icon-from-dropdown-page.png)
+
+![image10](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/select-icon-page.png)
+
+![image11](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/show-all-page.png)
+
+![image12](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/help-page.png)
 
 
 # User Stories & Initial UX
