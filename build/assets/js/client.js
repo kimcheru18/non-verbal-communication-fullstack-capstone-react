@@ -227,7 +227,7 @@ function displayNameByID(id, element) {
                     $("#select-icon-wrapper input").val(result);
                     $("#select-icon-wrapper .text img").attr("id", result);
                     $("#select-icon-wrapper .text img").attr("src", "assets/icon-images/" + result);
-                    $("#example-card-display-wrapper #blank-image").css('background-image', 'url(/icon-images/' + result + ')');
+                    $("#example-card-display-wrapper #blank-image").css('background-image', 'url(assets/icon-images/' + result + ')');
                 }
             })
             .fail(function (jqXHR, error, errorThrown) {
@@ -914,7 +914,7 @@ $(document).on("click", '#add-sub-category-button', function (event) {
 $(document).on("click", '#select-icon-wrapper .item', function (event) {
     event.preventDefault();
     let cardIcon = $('input[name="country"]').val();
-    $("#example-card-display-wrapper #blank-image").css('background-image', 'url(/icon-images/' + cardIcon + ')');
+    $("#example-card-display-wrapper #blank-image").css('background-image', 'url(assets/icon-images/' + cardIcon + ')');
 });
 
 $(document).on("change", '#select-card-item', function (event) {

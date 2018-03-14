@@ -1,6 +1,6 @@
 # Non-verbal communication fullstack capstone
 
-Link to live application: https://non-verbal-communication.herokuapp.com/
+Link to live NODE application: https://non-verbal-communication.herokuapp.com/ and REACT https://kimcheru18.github.io/non-verbal-communication-fullstack-capstone-react/build
 
 # Goal & Use Case
 
