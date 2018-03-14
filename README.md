@@ -19,7 +19,7 @@ My mother is a stroke survivor. She can read and she understands what people are
 
 ![image4](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-category-input-page.png)
 
-![image5](https://github.com/kimcheru18/define-statement-of-purpose-node-capstone/blob/master/github-images/create-sop-freestyle-page.png)
+![image5](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-subcategory-dropdown-page.png)
 
 ![image6](https://github.com/kimcheru18/non-verbal-communication-fullstack-capstone-react/blob/master/github-images/add-sub-category-input-page.png)
 
