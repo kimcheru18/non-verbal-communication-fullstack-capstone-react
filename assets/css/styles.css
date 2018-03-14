@@ -1,0 +1,503 @@
+/*
+The CSS code gets to executed from top to bottom and left ro right
+Basic rules to write CSS
+- write GENERAL rules first (for all the paragraph tags in the website for example) and only after that write CSS for SPECIFIC tags (for example the paragraph tags inside the footer)
+- write the css styles to define for the parent (outside) container and THEN the children (inside containers) of that parent and THEN the children (inside containers) of the child above
+*/
+
+/* -------------------------------------
+CSS reset
+Is a short set of CSS rules that resets the styling of all HTML elements to a consistent baseline so the website will look the same on all browsers */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    /*reset Firefox user agent styles*/
+    -moz-margin-before: 0px;
+    -moz-margin-after: 0px;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-before: 0px;
+    -moz-padding-after: 0px;
+    -moz-padding-start: 0px;
+    -moz-padding-end: 0px;
+    /*reset Internet Explorer user agent styles*/
+    -ms-margin-before: 0px;
+    -ms-margin-after: 0px;
+    -ms-margin-start: 0px;
+    -ms-margin-end: 0px;
+    -ms-padding-before: 0px;
+    -ms-padding-after: 0px;
+    -ms-padding-start: 0px;
+    -ms-padding-end: 0px;
+    /*reset Opera user agent styles*/
+    -o-margin-before: 0px;
+    -o-margin-after: 0px;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-before: 0px;
+    -o-padding-after: 0px;
+    -o-padding-start: 0px;
+    -o-padding-end: 0px;
+}
+
+
+/* -------------------------------------
+General styles (General Module, wrapping around the modules below)
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules below (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #48484f
+}
+
+#nav-options a:hover {
+    color: aliceblue;
+}
+
+body,
+#add-card-item button,
+#add-category button,
+#add-sub-category button,
+#create-card button {
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+
+#nav-options a {
+    color: #1d1d21;
+    text-decoration: none;
+}
+
+
+#example-card-display-wrapper,
+button,
+input,
+#home-page-icons img,
+#blank-image {
+    border-radius: 5px;
+}
+
+
+#header-wrapper,
+.category,
+.editShowAllInputText,
+.editShowAllInputButton {
+    font-family: 'Lora', serif;
+}
+
+/* -------------------------------------
+Header styles (Main Module)
+(all the styles inside the < header > or < nav > tags)
+*/
+
+/******NAVIGATION STYLES******/
+
+#nav-options li {
+    padding-top: .5rem;
+    font-size: 1.3rem;
+}
+
+#app-navigation {
+    background-color: #8aa3b9;
+    width: 100%;
+    padding-bottom: .5rem;
+}
+
+#app-navigation li {
+    padding-right: .75rem;
+}
+
+#home-page-icons {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#home-page-icons img,
+#home-page-icons div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 2rem;
+}
+
+/******HEADER STYLES******/
+
+#header-wrapper {
+    width: 100%;
+    background: #48484f;
+    clear: both;
+    font-size: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+header span {
+    font-size: 2.5rem;
+    color: #f58048;
+}
+
+/* -------------------------------------
+Content styles (Main Module)
+(all the styles inside the < sections > or < aside > tags)
+*/
+
+/******SITE INFO******/
+
+#site-info-wrapper {
+    width: 400px;
+    margin: 0 auto;
+    background: white;
+    color: black;
+    text-align: left;
+    padding: .5rem;
+    border-radius: 2px;
+}
+
+#site-info-wrapper div {
+    padding: .5rem .5rem 0 .5rem;
+}
+
+
+#site-info-para2 {
+    border-bottom: 2px solid #88b4c1;
+    padding-bottom: .25rem;
+}
+
+#site-info-para1 span,
+#site-info-para3 span {
+    color: #e22525;
+    font-weight: bold;
+}
+
+#site-info-para1 img,
+#site-info-para3 img {
+    width: 75px;
+    height: 75px;
+    border: 5px solid #48484f;
+    border-radius: 3px;
+    margin: 0 .21rem;
+}
+
+#site-info-para1 img {
+    float: left;
+}
+
+#site-info-para2 img {
+    float: right;
+}
+
+
+/******CREATE CARD, EDIT, DELETE, ADD CATEGORY, SUBCATEGORY, ITEM******/
+
+#cat-sub-cat-select select {
+    display: block;
+}
+
+#add-card-item input,
+#add-category input,
+#add-sub-category input {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+}
+
+#add-card-item button,
+#add-category button,
+#add-sub-category button,
+#create-card button {
+    padding: .5rem 1rem;
+    margin-left: .5rem;
+    background-color: #1759bf;
+    box-shadow: 1px 2px 2px grey;
+}
+
+#save-card-button {
+    margin-top: .5rem;
+}
+
+#select-cat,
+#select-sub-cat,
+#select-card-item {
+    width: 262px;
+    margin: auto;
+    margin-bottom: 1rem;
+    height: 30px;
+}
+
+#select-icon-wrapper {
+    width: 262px;
+    margin: 0 auto;
+}
+
+.search {
+    font-size: 1.25rem;
+}
+
+#select-icon-wrapper img {
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.text {
+    margin-top: 1rem;
+}
+
+img,
+#blank-image {
+    width: 200px;
+    height: 200px;
+    background: white;
+    background-size: cover;
+    background-position: center center;
+    border: 10px solid white;
+    margin: auto;
+}
+
+/******STYLES FOR DISPLAYING CARDS******/
+
+#example-card-display-wrapper,
+.completed-card-content {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px lightgrey;
+    background-color: #c35d2c;
+}
+
+#example-card-sub-cat {
+    margin-bottom: .5rem;
+}
+
+.completed-card-content {
+    margin: 1rem;
+}
+
+.subcategory {
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.category {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #8aa3b9;
+    width: 99%;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.category h2,
+.subcategory-title h4,
+.completed-card-content h5 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.category h2 {
+    font-size: 3.5rem;
+}
+
+.category h2,
+.subcategory-title {
+    color: #000000;
+}
+
+.category:first-child {
+    border-top: none;
+}
+
+/******STYLES FOR EDITING CARDS******/
+
+.edit-delete-category a,
+.edit-delete-sub-category a,
+.edit-delete-card a,
+#updateCategory,
+#cancelUpdateCategory,
+#updateSubCategory,
+#cancelUpdateSubCategory,
+#updateItem,
+#cancelUpdateItem {
+    color: aliceblue;
+    text-shadow: 0px 2px 1px black;
+    font-size: 1.1rem;
+    cursor: default;
+    background-color: #48484f;
+    padding: .1rem .4rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px grey;
+}
+
+
+.edit-delete-category a,
+.edit-delete-sub-category a,
+.edit-delete-card a {
+    text-decoration: none;
+}
+
+.edit-delete-category a:hover,
+.edit-delete-sub-category a:hover,
+.edit-delete-card a:hover,
+#updateCategory:hover,
+#cancelUpdateCategory:hover,
+#updateSubCategory:hover,
+#cancelUpdateSubCategory:hover,
+#updateItem:hover,
+#cancelUpdateItem:hover {
+    color: #afdc8d;
+}
+
+
+.edit-delete-card {
+    padding-bottom: .4rem;
+    margin-bottom: .2rem;
+}
+
+.edit-delete-category a:first-child,
+.edit-delete-sub-category a:first-child,
+.edit-delete-card a:first-child,
+#updateCategory,
+#updateSubCategory,
+#updateItem {
+    margin-right: 1rem;
+}
+
+#updateItem {
+    background-color: #48484f;
+}
+
+#updateCancelItem {
+    margin-top: .25rem;
+}
+
+#categoryUpdateInput Input,
+#subCategoryUpdateInput Input,
+#itemUpdateInput Input {
+    width: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/******STYLES FOR HELP PAGE******/
+
+#help-page-wrapper {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+#help-page-wrapper div {
+    border-bottom: 1px solid #8aa3b9;
+}
+
+#help-page-wrapper p {
+    padding: .5rem 0;
+}
+
+/* -------------------------------------
+Footer styles (Main Module)
+(all the styles inside the < footer > tag)
+*/
+
+footer {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    background-color: #48484f;
+}
+
+footer a {
+    color: #afdc8d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: aliceblue;
+}
+
+#flaticon-credit {
+    padding-top: 1rem;
+}
+
+#flaticon-credit p,
+#flaticon-credit a {
+    display: inline-block;
+    font-size: .8rem;
+}
+
+#flaticon-credit li {
+    list-style: none;
+}
+
+/* -------------------------------------
+place all the desktop styles above this line
+Responsive styles
+(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+place all the mobile tables styles below this line
+*/
+
+@media only screen and (min-width: 800px) {
+    #navigation {
+        margin-top: 1rem;
+    }
+
+    #app-navigation {
+        float: left;
+    }
+
+    #nav-options ul {
+        display: inline-block;
+    }
+
+    #nav-options li {
+        display: inline-block;
+        float: left;
+    }
+
+    #nav-options li:first-child {
+        padding-left: .75rem;
+    }
+
+    #nav-options li:last-child {
+        padding-right: .75rem;
+    }
