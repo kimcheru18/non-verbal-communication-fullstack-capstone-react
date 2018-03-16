@@ -60,6 +60,18 @@
 	
 	var _header2 = _interopRequireDefault(_header);
 	
+	var _footer = __webpack_require__(546);
+	
+	var _footer2 = _interopRequireDefault(_footer);
+	
+	var _siteInfo = __webpack_require__(547);
+	
+	var _siteInfo2 = _interopRequireDefault(_siteInfo);
+	
+	var _helpPage = __webpack_require__(548);
+	
+	var _helpPage2 = _interopRequireDefault(_helpPage);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var render = _reactDom2.default.render;
@@ -68,6 +80,18 @@
 	
 	document.addEventListener('DOMContentLoaded', function () {
 	                        return _reactDom2.default.render(_react2.default.createElement(_header2.default, null), document.getElementById('reactHeader'));
+	});
+	
+	document.addEventListener('DOMContentLoaded', function () {
+	                        return _reactDom2.default.render(_react2.default.createElement(_footer2.default, null), document.getElementById('reactFooter'));
+	});
+	
+	document.addEventListener('DOMContentLoaded', function () {
+	                        return _reactDom2.default.render(_react2.default.createElement(_siteInfo2.default, null), document.getElementById('reactSiteInfo'));
+	});
+	
+	document.addEventListener('DOMContentLoaded', function () {
+	                        return _reactDom2.default.render(_react2.default.createElement(_helpPage2.default, null), document.getElementById('reactHelpPage'));
 	});
 
 /***/ }),
@@ -64937,6 +64961,295 @@
 	}
 	
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 546 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = Footer;
+	
+	__webpack_require__(60);
+	
+	__webpack_require__(128);
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(12);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _enzyme = __webpack_require__(130);
+	
+	var _enzymeAdapterReact = __webpack_require__(527);
+	
+	var _enzymeAdapterReact2 = _interopRequireDefault(_enzymeAdapterReact);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	(0, _enzyme.configure)({ adapter: new _enzymeAdapterReact2.default() });
+	
+	function Footer(props) {
+	    return _react2.default.createElement(
+	        'footer',
+	        { role: 'content-info' },
+	        _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                '\xA9 Kimberly Kearney'
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://www.linkedin.com/in/kimberly-kearney', target: '_blank' },
+	                    'LinkedIn'
+	                ),
+	                ' |',
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://github.com/kimcheru18', target: '_blank' },
+	                    'Github'
+	                )
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            { id: 'flaticon-credit' },
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'Icon made by '
+	            ),
+	            _react2.default.createElement(
+	                'a',
+	                { href: 'https://roundicons.com/' },
+	                'roundicons.com '
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                '&'
+	            ),
+	            _react2.default.createElement(
+	                'a',
+	                { href: 'https://smashicons.com/' },
+	                'smashicons.com '
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'from www.flaticon.com E.g.: Icon made by Freepik from www.flaticon.com '
+	            )
+	        )
+	    );
+	}
+
+/***/ }),
+/* 547 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = SiteInfo;
+	
+	__webpack_require__(60);
+	
+	__webpack_require__(128);
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(12);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _enzyme = __webpack_require__(130);
+	
+	var _enzymeAdapterReact = __webpack_require__(527);
+	
+	var _enzymeAdapterReact2 = _interopRequireDefault(_enzymeAdapterReact);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	(0, _enzyme.configure)({ adapter: new _enzymeAdapterReact2.default() });
+	
+	function SiteInfo(props) {
+	    return _react2.default.createElement(
+	        'main',
+	        { id: 'site-info-wrapper', className: 'hide-everything' },
+	        _react2.default.createElement(
+	            'div',
+	            { id: 'site-info-para1' },
+	            _react2.default.createElement('img', { src: 'assets/icon-images/flower.png', alt: '' }),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'This ',
+	                _react2.default.createElement(
+	                    'span',
+	                    null,
+	                    'non-verbal communication '
+	                ),
+	                ' app is for anyone who has suffered some type of brain injury and has difficulty with verbal communication.'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            { id: 'site-info-para2' },
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'It is a simple way to communicate without the need to search through long lists of words to find what you want to say.'
+	            ),
+	            _react2.default.createElement('div', null),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'You or your caregiver can create cards with images that include a text description.'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            { id: 'site-info-para3' },
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                _react2.default.createElement(
+	                    'span',
+	                    null,
+	                    'To get started...'
+	                ),
+	                ' select "ADD NEW" from the navigation bar then follow the prompts step by step to create a card.'
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'Cards, Categories, Subcategories and Items can be updated or deleted in the Show All page.'
+	            ),
+	            _react2.default.createElement(
+	                'div',
+	                { id: 'site-info-images' },
+	                _react2.default.createElement('img', { src: 'assets/icon-images/sneakers.png', alt: '' }),
+	                _react2.default.createElement('img', { src: 'assets/icon-images/bonsai.png', alt: '' }),
+	                _react2.default.createElement('img', { src: 'assets/icon-images/armchair-1.png', alt: '' }),
+	                _react2.default.createElement('img', { src: 'assets/icon-images/coffee-machine.png', alt: '' })
+	            )
+	        )
+	    );
+	}
+
+/***/ }),
+/* 548 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.default = HelpPage;
+	
+	__webpack_require__(60);
+	
+	__webpack_require__(128);
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(12);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _enzyme = __webpack_require__(130);
+	
+	var _enzymeAdapterReact = __webpack_require__(527);
+	
+	var _enzymeAdapterReact2 = _interopRequireDefault(_enzymeAdapterReact);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	(0, _enzyme.configure)({ adapter: new _enzymeAdapterReact2.default() });
+	
+	function HelpPage(props) {
+	    return _react2.default.createElement(
+	        'main',
+	        { id: 'help-page-wrapper', className: 'hide-everything' },
+	        _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'I have a card on the SHOW ALL page that has a blank image.'
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'Go back to the ADD NEW page and search for the card, select an icon image and be sure to press "save."'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'I have created a new category, subcategory or item but it is not selected in the dropdown list.'
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'After you have created a category, subcategory or item, you must select it from the dropdown list.'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'Why are there cards in the app that I did not create?'
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'This app is currently not set up to allow users to create an individual login, therefore, anytime a user adds a card, it will be added to the universal database that all users will see.'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            null,
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'I can\'t find an icon to match my item.'
+	            ),
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                'Currently there are a select number of icons for food, clothing, household items and sewing hobbies.'
+	            )
+	        )
+	    );
+	}
 
 /***/ })
 /******/ ]);
