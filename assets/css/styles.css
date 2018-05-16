@@ -129,6 +129,7 @@ Header styles (Main Module)
 /******NAVIGATION STYLES******/
 
 #nav-options li {
+    display: inline-block;
     padding-top: .5rem;
     font-size: 1.3rem;
 }
@@ -143,18 +144,6 @@ Header styles (Main Module)
     padding-right: .75rem;
 }
 
-#home-page-icons {
-    width: 90%;
-    margin: 0 auto;
-}
-
-#home-page-icons img,
-#home-page-icons div {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    margin: 2rem;
-}
 
 /******HEADER STYLES******/
 
@@ -162,14 +151,17 @@ Header styles (Main Module)
     width: 100%;
     background: #48484f;
     clear: both;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
-    margin-bottom: 2rem;
 }
 
 header span {
     font-size: 2.5rem;
     color: #f58048;
+}
+
+#header-wrapper h4 {
+    font-size: 1.25rem;
 }
 
 /* -------------------------------------
@@ -180,7 +172,8 @@ Content styles (Main Module)
 /******SITE INFO******/
 
 #site-info-wrapper {
-    width: 400px;
+    width: 100%;
+    max-width: 700px;
     margin: 0 auto;
     background: white;
     color: black;
@@ -206,20 +199,17 @@ Content styles (Main Module)
 }
 
 #site-info-para1 img,
-#site-info-para3 img {
+#site-info-images img {
     width: 75px;
     height: 75px;
-    border: 5px solid #48484f;
-    border-radius: 3px;
-    margin: 0 .21rem;
+}
+
+#site-info-images {
+    text-align: center;
 }
 
 #site-info-para1 img {
     float: left;
-}
-
-#site-info-para2 img {
-    float: right;
 }
 
 
@@ -428,10 +418,17 @@ img,
 
 #help-page-wrapper div {
     border-bottom: 1px solid #8aa3b9;
+    margin: 1rem 0;
 }
 
 #help-page-wrapper p {
     padding: .5rem 0;
+}
+
+#help-page-wrapper p:last-child {
+    font-style: italic;
+    text-indent: 1rem;
+    font-size: 1rem;
 }
 
 /* -------------------------------------
@@ -440,10 +437,14 @@ Footer styles (Main Module)
 */
 
 footer {
-    margin-top: 5rem;
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     background-color: #48484f;
+}
+
+footer p,
+footer a {
+    font-size: 1rem;
 }
 
 footer a {
@@ -477,25 +478,8 @@ place all the mobile tables styles below this line
 */
 
 @media only screen and (min-width: 800px) {
-    #navigation {
-        margin-top: 1rem;
-    }
-
-    #app-navigation {
-        float: left;
-    }
-
-    #nav-options ul {
-        display: inline-block;
-    }
-
     #nav-options li {
-        display: inline-block;
-        float: left;
-    }
-
-    #nav-options li:first-child {
-        padding-left: .75rem;
+        padding: .5rem 1.5rem 0 1.5rem;
     }
 
     #nav-options li:last-child {
