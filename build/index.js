@@ -65001,40 +65001,16 @@
 	        { role: 'content-info' },
 	        _react2.default.createElement(
 	            'div',
-	            null,
-	            _react2.default.createElement(
-	                'p',
-	                null,
-	                '\xA9 Kimberly Kearney'
-	            ),
-	            _react2.default.createElement(
-	                'p',
-	                null,
-	                _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://www.linkedin.com/in/kimberly-kearney', target: '_blank' },
-	                    'LinkedIn'
-	                ),
-	                ' |',
-	                _react2.default.createElement(
-	                    'a',
-	                    { href: 'https://github.com/kimcheru18', target: '_blank' },
-	                    'Github'
-	                )
-	            )
-	        ),
-	        _react2.default.createElement(
-	            'div',
 	            { id: 'flaticon-credit' },
 	            _react2.default.createElement(
 	                'p',
 	                null,
-	                'Icon made by '
+	                'Icon made by'
 	            ),
 	            _react2.default.createElement(
 	                'a',
 	                { href: 'https://roundicons.com/' },
-	                'roundicons.com '
+	                'https://roundicons.com/  '
 	            ),
 	            _react2.default.createElement(
 	                'p',
@@ -65044,12 +65020,61 @@
 	            _react2.default.createElement(
 	                'a',
 	                { href: 'https://smashicons.com/' },
-	                'smashicons.com '
+	                'https://smashicons.com/ '
 	            ),
 	            _react2.default.createElement(
 	                'p',
 	                null,
 	                'from www.flaticon.com E.g.: Icon made by Freepik from www.flaticon.com '
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'div',
+	            { id: 'app-author' },
+	            _react2.default.createElement(
+	                'p',
+	                null,
+	                '@ 2018 Kimberly Kearney'
+	            )
+	        ),
+	        _react2.default.createElement(
+	            'ul',
+	            { id: 'contact-info-ul' },
+	            _react2.default.createElement(
+	                'li',
+	                { 'class': 'contact-info' },
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: 'mailto:kimberly_kearney@comcast.net?subject=Hello', target: '_blank', 'aria-label': 'Email Kimberly' },
+	                    _react2.default.createElement('i', { 'aria-hidden': true, 'class': 'fas fa-envelope', title: 'Email' })
+	                )
+	            ),
+	            _react2.default.createElement(
+	                'li',
+	                { 'class': 'contact-info' },
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://github.com/kimcheru18', target: '_blank', 'aria-label': 'View GitHub profile' },
+	                    _react2.default.createElement('i', { 'aria-hidden': true, 'class': 'fab fa-github', title: 'Github' })
+	                )
+	            ),
+	            _react2.default.createElement(
+	                'li',
+	                { 'class': 'contact-info' },
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://angel.co/kimberly-kearney', target: '_blank', 'aria-label': 'View AngelList profile' },
+	                    _react2.default.createElement('i', { 'aria-hidden': true, 'class': 'fab fa-angellist', title: 'AngelList' })
+	                )
+	            ),
+	            _react2.default.createElement(
+	                'li',
+	                { 'class': 'contact-info' },
+	                _react2.default.createElement(
+	                    'a',
+	                    { href: 'https://www.linkedin.com/in/kimberly-kearney/', target: '_blank', 'aria-label': 'View LinkedIn profile' },
+	                    _react2.default.createElement('i', { 'aria-hidden': true, 'class': 'fab fa-linkedin', title: 'LinkedIn' })
+	                )
 	            )
 	        )
 	    );
