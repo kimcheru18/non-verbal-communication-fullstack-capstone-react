@@ -24,7 +24,7 @@ export default function Footer(props) {
                 </div>
 
                 <div id="app-author">
-                <p>@ 2018 Kimberly Kearney</p>
+            <p>© 2018 Kimberly Kearney</p>
             </div>
 
             <ul id="contact-info-ul">
