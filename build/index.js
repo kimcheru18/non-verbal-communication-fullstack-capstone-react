@@ -65034,7 +65034,7 @@
 	            _react2.default.createElement(
 	                'p',
 	                null,
-	                '@ 2018 Kimberly Kearney'
+	                '\xA9 2018 Kimberly Kearney'
 	            )
 	        ),
 	        _react2.default.createElement(
